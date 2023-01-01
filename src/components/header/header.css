@@ -58,8 +58,6 @@
 /* MEDIAD QUERIES */
 
 @media screen and (max-width: 1024px) {
-  .header__container {
-  }
 }
 
 @media screen and (max-width: 600px) {

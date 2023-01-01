@@ -6,7 +6,7 @@ import Social from "./SocialHandles";
 import ME from "../../assets/me.png";
 const Header = () => {
   return (
-    <header className="header__container">
+    <header className="header__container" id="home">
       <div className="container">
         <h5> I'm </h5>
         <h1>Kuseh Wewoliamo</h1>
@@ -18,7 +18,7 @@ const Header = () => {
         </div>
 
         <a href="#contact" className="scroll__to__contact">
-          Scroll to contact
+          Contact Me
         </a>
         <Social />
       </div>

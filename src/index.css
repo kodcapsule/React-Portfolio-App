@@ -22,6 +22,7 @@ html {
   --color-primary-varient: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
+  --color-gray: #495057;
 
   /* CONTAINER SIZES */
   --container-lg: 75%;
@@ -30,7 +31,7 @@ html {
 
   /* ANIMATIONS */
 
-  --transition-primary: all 300ms eas;
+  --transition-primary: all 500ms ease-in-out;
 }
 
 ::-webkit-scrollbar {
