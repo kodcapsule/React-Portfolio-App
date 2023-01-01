@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+
 *,
 ::after,
 ::before {
@@ -11,6 +13,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 :root {
   --color-bg: #1f1f38;
@@ -19,9 +22,119 @@ html {
   --color-primary-varient: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
+
+  /* CONTAINER SIZES */
+  --container-lg: 75%;
+  --container-md: 80%;
+  --container-sm: 90%;
+
+  /* ANIMATIONS */
+
+  --transition-primary: all 300ms eas;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 body {
   background: var(--color-bg);
-  font-family: sans-serif;
+  color: var(--color-white);
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: var(--container-lg);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+section > h2 section > h5 {
+  text-align: center;
+  color: var(--color-light);
+}
+
+section > h2 {
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition-primary);
+}
+
+a:hover {
+  color: var(--color-light);
+}
+
+.btn {
+  display: inline-block;
+  width: max-content;
+  padding: 0.8rem 2rem;
+  border-radius: 0.2rem;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition-primary);
+}
+
+.btn:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* ================= MEDIAQUERIES ====================== */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: var(--container-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: var(--container-sm);
+  }
+
+  section {
+    margin-top: 4rem;
+  }
+  section > h2 {
+    margin-bottom: 2rem;
+  }
 }
