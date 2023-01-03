@@ -67,7 +67,8 @@ section {
   max-height: 100vh;
 }
 
-section > h2 section > h5 {
+section > h2,
+section > h5 {
   text-align: center;
   color: var(--color-light);
 }
