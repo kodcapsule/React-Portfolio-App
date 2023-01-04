@@ -63,6 +63,7 @@ h1 {
 }
 
 section {
+  padding-top: 4rem;
   margin-top: 8rem;
   max-height: 100vh;
 }
@@ -73,9 +74,14 @@ section > h5 {
   color: var(--color-light);
 }
 
+section > h5 {
+  font-size: 1.2rem;
+}
+
 section > h2 {
   color: var(--color-primary);
   margin-bottom: 2rem;
+  font-size: 4rem;
 }
 
 .text-light {

@@ -79,3 +79,42 @@
 .about_container a {
   margin-top: 2rem;
 }
+
+/* MEDIAD QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .cards-container {
+    gap: 1rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    place-items: center;
+  }
+
+  .me_container {
+    width: 100%;
+  }
+  .cards-container {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .about_card {
+    width: 50%;
+  }
+
+  .about_container a {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+}
