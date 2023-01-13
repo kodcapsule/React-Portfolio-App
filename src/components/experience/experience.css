@@ -6,10 +6,11 @@
 
 .experience__container > div {
   background: var(--color-bg-varient);
-  padding: 2rem 5rem;
+  padding: 2rem 6rem 6rem 6rem;
   border-radius: 3rem;
   border: 1px solid transparent;
   transition: var(--transition-primary);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .experience__container > div:hover {
@@ -22,7 +23,7 @@
   font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .experinece__content {
@@ -47,6 +48,6 @@
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  background: var(--color-bg);
-  padding: 0.2rem;
+  /* background: var(--color-bg); */
+  /* padding: 0.2rem; */
 }
