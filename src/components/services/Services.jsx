@@ -8,86 +8,85 @@ const Services = () => {
       <h2>Services</h2>
       <div className="container service__container">
         <article className="services">
-          <h3>UI/UX</h3>
+          <h3 className="service__heading">Web Development</h3>
           <ul className="Ssrvice_list">
             <li className="service">
-              <GoCheck />
+              <GoCheck className="services__list__icon" />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li className="service">
-              <GoCheck />
+              <GoCheck className="services__list__icon" />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li className="service">
-              <GoCheck />
+              <GoCheck className="services__list__icon" />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li className="service">
-              <GoCheck />
+              <GoCheck className="services__list__icon" />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li className="service">
-              <GoCheck />
+              <GoCheck className="services__list__icon" />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+          </ul>
+        </article>
+        <article className="services">
+          <h3 className="service__heading">UI/UX</h3>
+          <ul className="Ssrvice_list">
+            <li className="service">
+              <GoCheck className="services__list__icon" />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li className="service">
-              <GoCheck />
+              <GoCheck className="services__list__icon" />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li className="service">
-              <GoCheck />
+              <GoCheck className="services__list__icon" />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li className="service">
+              <GoCheck className="services__list__icon" />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li className="service">
+              <GoCheck className="services__list__icon" />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li className="service">
+              <GoCheck className="services__list__icon" />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li className="service">
+              <GoCheck className="services__list__icon" />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
           </ul>
         </article>
 
         <article className="services">
-          <h3>Web Development</h3>
+          <h3 className="service__heading">Content Creation</h3>
           <ul className="Ssrvice_list">
             <li className="service">
-              <GoCheck />
+              <GoCheck className="services__list__icon" />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li className="service">
-              <GoCheck />
+              <GoCheck className="services__list__icon" />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li className="service">
-              <GoCheck />
+              <GoCheck className="services__list__icon" />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li className="service">
-              <GoCheck />
+              <GoCheck className="services__list__icon" />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li className="service">
-              <GoCheck />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-          </ul>
-        </article>
-
-        <article className="services">
-          <h3>Content Creation</h3>
-          <ul className="Ssrvice_list">
-            <li className="service">
-              <GoCheck />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li className="service">
-              <GoCheck />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li className="service">
-              <GoCheck />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li className="service">
-              <GoCheck />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li className="service">
-              <GoCheck />
+              <GoCheck className="services__list__icon" />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
           </ul>
