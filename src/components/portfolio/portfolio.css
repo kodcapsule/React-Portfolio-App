@@ -1,0 +1,23 @@
+.portfolio_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.portfolio_item {
+  width: 100%;
+  border: 1px solid var(--color-bg-varient);
+  border-radius: 2rem;
+  /* padding: 0rem 1rem; */
+}
+
+.image_container {
+  width: 100%;
+  border-radius: 2rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.portfolio_content {
+  padding: 1rem;
+}
