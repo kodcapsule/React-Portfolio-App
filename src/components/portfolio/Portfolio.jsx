@@ -3,7 +3,7 @@ import "./portfolio.css";
 import PRJ from "../../assets/prj.png";
 const Portfolio = () => {
   return (
-    <section>
+    <section id="services">
       <h5>My recent Projects</h5>
       <h2>Projects</h2>
       <div className="container portfolio_container">
@@ -11,84 +11,93 @@ const Portfolio = () => {
           <div className="image_container">
             <img src={PRJ} alt="" />
           </div>
-          <h3>This is my project</h3>
+          <div className="portfolio_content">
+            <h3>This is my project</h3>
 
-          <div className="">
-            <a
-              href="https://github.com/kodcapsule/React-Portfolio-App"
-              className="btn"
-            >
-              Github
-            </a>
-            <a
-              href="https://github.com/kodcapsule/React-Portfolio-App"
-              className="btn btn-primary"
-            >
-              Live Demo
-            </a>
+            <div className="">
+              <a
+                href="https://github.com/kodcapsule/React-Portfolio-App"
+                className="btn"
+              >
+                Github
+              </a>
+              <a
+                href="https://github.com/kodcapsule/React-Portfolio-App"
+                className="btn btn-primary"
+              >
+                Live Demo
+              </a>
+            </div>
           </div>
         </article>
         <article className="portfolio_item">
           <div className="image_container">
             <img src={PRJ} alt="" />
           </div>
-          <h3>This is my project</h3>
+          <div className="portfolio_content">
+            <h3>This is my project</h3>
 
-          <div className="">
-            <a
-              href="https://github.com/kodcapsule/React-Portfolio-App"
-              className="btn"
-            >
-              Github
-            </a>
-            <a
-              href="https://github.com/kodcapsule/React-Portfolio-App"
-              className="btn btn-primary"
-            >
-              Live Demo
-            </a>
+            <div className="">
+              <a
+                href="https://github.com/kodcapsule/React-Portfolio-App"
+                className="btn"
+              >
+                Github
+              </a>
+              <a
+                href="https://github.com/kodcapsule/React-Portfolio-App"
+                className="btn btn-primary"
+              >
+                Live Demo
+              </a>
+            </div>
           </div>
         </article>
         <article className="portfolio_item">
           <div className="image_container">
             <img src={PRJ} alt="" />
           </div>
-          <h3>This is my project</h3>
+          <div className="portfolio_content">
+            <h3>This is my project</h3>
 
-          <div className="">
-            <a
-              href="https://github.com/kodcapsule/React-Portfolio-App"
-              className="btn"
-            >
-              Github
-            </a>
-            <a
-              href="https://github.com/kodcapsule/React-Portfolio-App"
-              className="btn btn-primary"
-            >
-              Live Demo
-            </a>
+            <div className="">
+              <a
+                href="https://github.com/kodcapsule/React-Portfolio-App"
+                className="btn"
+              >
+                Github
+              </a>
+              <a
+                href="https://github.com/kodcapsule/React-Portfolio-App"
+                className="btn btn-primary"
+              >
+                Live Demo
+              </a>
+            </div>
           </div>
         </article>
         <article className="portfolio_item">
           <div className="image_container">
             <img src={PRJ} alt="" />
           </div>
-          <h3>This is my project</h3>
 
-          <div className="">
-            <a
-              href="https://github.com/kodcapsule/React-Portfolio-App"
-              className="btn"
-            >
-              Github
-            </a>
-            <a
-              href="https://github.com/kodcapsule/React-Portfolio-App"
-              className="btn btn-primary"
-            >
-              Live Demo
-            </a>
+          <div className="portfolio_content">
+            <h3>This is my project</h3>
+
+            <div className="">
+              <a
+                href="https://github.com/kodcapsule/React-Portfolio-App"
+                className="btn"
+              >
+                Github
+              </a>
+              <a
+                href="https://github.com/kodcapsule/React-Portfolio-App"
+                className="btn btn-primary"
+              >
+                Live Demo
+              </a>
+            </div>
           </div>
         </article>
         <article className="portfolio_item">
