@@ -3,7 +3,7 @@ import "./portfolio.css";
 import PRJ from "../../assets/prj.png";
 const Portfolio = () => {
   return (
-    <section id="services">
+    <section>
       <h5>My recent Projects</h5>
       <h2>Projects</h2>
       <div className="container portfolio_container">

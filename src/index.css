@@ -64,8 +64,8 @@ h1 {
 
 section {
   padding-top: 4rem;
-  margin-top: 8rem;
-  max-height: 100vh;
+  margin-top: 12rem;
+  /* max-height: 90vh; */
 }
 
 section > h2,
